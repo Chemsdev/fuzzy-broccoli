@@ -34,6 +34,7 @@ def connect_mysql(config:dict):
     password = config.get('password','')
     database = config.get('database','')
     engine   = create_engine(f'mysql+pymysql://{user}:{password}@{host}/{database}')
+    print(config)
     return engine.connect()
 
 # ----------------------------------------------------------->
