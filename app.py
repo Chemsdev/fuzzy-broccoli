@@ -3,7 +3,7 @@ import streamlit as st
 from db_init import *
 
 def main():
-    st.title("HELLO")
+    st.title("JEUX OLYMPIQUES")
     
     
     # Upload du fichier
